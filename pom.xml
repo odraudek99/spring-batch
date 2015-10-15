@@ -158,12 +158,12 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
+	<!-- <repositories>
     <repository>
       <id>internal</id>
       <name>archiva</name>
       <url>http://10.55.121.173:8080/archiva/repository/internal/</url>
       
     </repository>
-  </repositories>
+  </repositories> -->
 </project>

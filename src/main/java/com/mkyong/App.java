@@ -1,5 +1,6 @@
 package com.mkyong;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.JobParameters;
@@ -11,10 +12,10 @@ public class App {
 	
 //	public static final String LOG_CONFIG = "/SIAT_NFS/pdc/configuracion/log4j.properties";
 //	
-//	static {
-//	        PropertyConfigurator
-//	                .configure("/SIAT_NFS/pdc/configuracion/log4j.properties");
-//	    }
+	static {
+	        PropertyConfigurator
+	                .configure("/siat/test/log4j.properties");
+	    }
 	
 	public static void main(String[] args) {
 
